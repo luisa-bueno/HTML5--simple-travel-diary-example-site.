@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<style>
+		#body {
+			background-color: #f2f6ff;
+			margin: 0;
+			text-align: center;
+		}
+
+		#header {
+			background-color: #003153;
+			padding: 16px;
+		}
+
+		#navbar {
+			text-align: center;
+		}
+
+		.span {
+			padding-left: 8px;
+			padding-right: 8px;
+			color: skyblue;
+		}
+
+		#form {
+			background-color: white;
+			text-align: center;
+			width: 400px;
+			height: 45px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 30px;
+			padding-top: 50px;
+			padding-bottom: 250px;
+			margin-bottom: 50px;
+			border: 1px solid #ccc;
+		}
+
+		.info-div {
+			padding-top: 35px;
+		}
+
+		.info {
+			font-size: 18px;
+			padding-bottom: 8px; 
+			border: 0;
+			border-bottom: 1px solid #ccc;
+			width: 100%;
+		}
+
+		#register {
+			background-color: #054f77;
+			margin-top: 30px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			padding-right: 24px;
+			padding-left: 24px;
+			font-size: 18px;
+			color: white;
+			border: none;
+		}
+
+
+		#footer {
+			background-color: black;
+			padding: 64px;
+			text-align: center;
+		}
+
+		.span2 {
+			padding-left: 8px;
+			padding-right: 8px;
+			color: white;
+		}
+	</style>
+</head>
+<body id="body">
+	<!-- header part -->
+	<header id="header">
+		<nav id="navbar">
+			<span><a class="span" href="index.html">TRIPS</a></span>
+			<span><a class="span" href="about.html">ABOUT</a></span>
+			<span><a class="span" href="contact.html">CONTACT</a></span>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<br>
+			<h1>Any questions?! Contact me!</h1>
+			<form id="form" method="POST">
+				<div >
+					<input class="info" type="text" name="fullname" placeholder="Full Name">
+				</div>
+				<div class="info-div">
+					<input class="info" type="email" name="email" placeholder="Email">
+				</div class="info-div">
+				<div class="info-div">
+					<input class="info" type="text" name="number" placeholder="Contact Number">
+				</div>
+				<div class="info-div">
+					<input id="register" type="submit" value="Submit">
+				</div>
+				
+			</form>
+		</article>
+	</main>
+
+	<br><br><br><br>
+
+	<footer id="footer">
+		<span class="span2">TRIPS</span>
+		<span class="span2">ABOUT</span>
+		<span class="span2">CONTACT</span>
+	</footer>
+</body>
+</html>
