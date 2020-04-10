@@ -5,19 +5,26 @@
 	<title>Travel Diary</title>
 	<!-- styles of the page. -->
 	<style>
+		/* BODY ID */
 		#body {
 			background-color: lightgrey;
 			margin: 0;
 		}
+
+		/*HEADER ID*/
 
 		#header {
 			background-color: #003153;
 			padding: 16px;
 		}
 
+		/*NAV ID*/
+
 		#navbar {
 			text-align: center;
 		}
+
+		/*TOP SPAN CLASS*/
 
 		.span {
 			padding-left: 8px;
@@ -25,15 +32,21 @@
 			color: skyblue;
 		}
 
+		/*HEADER ID*/
+
 		#top-image {
 			width: 100%;
 			min-width: 720px;
 			min-height: 250px;
 		}
 
+		/*HEADER ID*/
+
 		#heading {
 			text-align: center;
 		}
+
+		/*DIV IMAGES' SETUP CLASS*/
 
 		.image {
 			background-color: white;
@@ -41,10 +54,14 @@
 			height: 100%;
 		}
 
+		/*GALLERY IMAGES' SETUP CLASS*/
+
 		.places-image {
 			width: 100%;
 			height: 80%;
 		}
+
+		/*CAPTIONS' SETUP CLASS*/
 
 		.caption {
 			font-size: 20px;
@@ -53,17 +70,23 @@
 			text-decoration-style: inherit;
 		}
 
+		/*FOOTER ID*/
+
 		#footer {
 			background-color: black;
 			padding: 48px;
 			text-align: center;
 		}
 
+		/*BOTTOM/FOOTER SPAN CLASS*/
+
 		.span2 {
 			padding-left: 8px;
 			padding-right: 8px;
 			color: white;
 		}
+
+		/*TABLES' SETUP STYLES*/
 
 		td {
 			padding: 8px;
@@ -80,7 +103,7 @@
 	</style>
 </head>
 <body id="body">
-	<!-- header part -->
+	<!-- header part (menu bar)-->
 	<header id="header">
 		<nav id="navbar">
 			<span><a class="span" href="index.html">TRIPS</a></span>
@@ -89,16 +112,21 @@
 		</nav>
 	</header>
 	<main>
+		<!-- TOP IMAGE -->
 		<article>
 			<img id="top-image" src="images/rio_capa.jpg">
 		</article>
+		<!-- BEGGINING OF THE IMAGE GALLERY USING TABLES -->
 		<article>
 			<h1 id="heading">My Travel Diary</h1>
 			<table>
 				<tr>
 					<td>
+						<!-- CREATING DIV FOR EACH ONE OF THE IMAGES USING THE "IMAGE" CLASS -->
 						<div class="image">
+							<!-- CREATING A LINK OVER THE IMAGE. -->
 							<a href="rio.html"><img class="places-image" src="images/rio.jpg" alt="Rio de Janeiro"></a>
+							<!-- CAPTION -->
 							<p class="caption">Rio de Janeiro, Brasil</p>
 						</div>
 					</td>
@@ -160,6 +188,8 @@
 	</main>
 
 	<br><br>
+
+	<!-- CREATING THE FOOTER -->
 
 	<footer id="footer">
 		<span class="span2">TRIPS</span>
