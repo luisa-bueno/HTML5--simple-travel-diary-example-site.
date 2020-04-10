@@ -5,6 +5,6 @@
 * THE PROJECT HAS A TOTAL OF 12 HTML'S PAGES:
   * 3 FOR THE THREE SECTIONS OF THE MENU BAR AND 1 FOR EACH PLACE CHOOSED (TOTAL OF NINE).
 
-* THE [__INDEX.HTML__] https://github.com/luisa-bueno/HTML5--simple-travel-diary-example-site./blob/master/index.html FILE IS THE "HOME PAGE" (OR THE "TRIP" PAGE). WE START FROM THERE AND THEN ACCESS THE OTHER PAGES.
+* THE [INDEX.HTML] https://github.com/luisa-bueno/HTML5--simple-travel-diary-example-site./blob/master/index.html FILE IS THE "HOME PAGE" (OR THE "TRIP" PAGE). WE START FROM THERE AND THEN ACCESS THE OTHER PAGES.
 
-* AT THE [**/IMAGE**] (https://github.com/luisa-bueno/HTML5--simple-travel-diary-example-site./tree/master/images) FILE, YOU CAN FIND THE IMAGES THAT WERE USED ON THE PROJECT.
+* AT THE [/IMAGE] (https://github.com/luisa-bueno/HTML5--simple-travel-diary-example-site./tree/master/images) FILE, YOU CAN FIND THE IMAGES THAT WERE USED ON THE PROJECT.
