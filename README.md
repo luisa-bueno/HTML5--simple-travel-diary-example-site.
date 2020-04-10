@@ -7,4 +7,4 @@
 
 * THE **[INDEX.HTML](https://github.com/luisa-bueno/HTML5--simple-travel-diary-example-site./blob/master/index.html)** FILE IS THE "HOME PAGE" (OR THE "TRIP" PAGE). WE START FROM THERE AND THEN ACCESS THE OTHER PAGES.
 
-* AT THE **/[IMAGE](https://github.com/luisa-bueno/HTML5--simple-travel-diary-example-site./tree/master/images)**  FILE, YOU CAN FIND THE IMAGES THAT WERE USED ON THE PROJECT.
+* AT THE **[/IMAGE](https://github.com/luisa-bueno/HTML5--simple-travel-diary-example-site./tree/master/images)**  FOLDER, YOU CAN FIND THE IMAGES THAT WERE USED ON THE PROJECT.
